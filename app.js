@@ -42,5 +42,3 @@ app.get('/turing', (req, res) => {
 
 // Archivos static
 app.use(express.static(path.join(__dirname, 'DH-Heroes/public')));
-
-console.log(path.join(__dirname, "public"))
